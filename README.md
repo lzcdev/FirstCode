@@ -8,7 +8,7 @@
  - 日志打印：Log.v()、Log.d()、Log.i()、Log.w()、Log.e()，第一个参数tag可以在方法外输入logt，自动生成一个TAG常量。不用System.out。日志可以添加过滤器
  - control+R：运行项目
 ## 第2章 先从看得到的入手---探究活动
-对应的项目demo为[HelloWorld](./ActvityTest)和[](./ActivityLifeCycleTest)
+对应的项目demo为[HelloWorld](./ActvityTest)和[ActivityLifeCycleTest](./ActivityLifeCycleTest)
 - android:id给当前元素定义一个唯一标识符，之后就可以对他进行操作了（类似前端的id），语法为：`@+id:id_name`。match_parent表示当前元素和父元素一样宽，wrap_content表示当前元素的高度刚好能包含里面的内容（类似于前端的标签）
 - 在AndroidManifest.xml中加入<intent-filter>T标签，并且在这个标签里面添加`<action android:name="android.intent.action.MAIN"/>`和 `<category android:name="android.intent.category.LAUNCHER"/>`来配置主活动。
 - findViewById()获取布局文件中定义的元素，setOnClickListener()注册监听器，监听onClick()方法。
