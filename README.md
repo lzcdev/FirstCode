@@ -28,4 +28,6 @@
   - 杀掉当前进程：`android.os.Process.killProcess(android.os.Process.myPid())`
   - 启动活动的最佳写法：在后一个活动中国年暴露一个方法，这样写比较规范，提高效率
 
+## 第2章 软件也要拼脸蛋---UI开发的点点滴滴
+
 
