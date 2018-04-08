@@ -29,6 +29,28 @@
   - 启动活动的最佳写法：在后一个活动中国年暴露一个方法，这样写比较规范，提高效率
 
 ## 第3章 软件也要拼脸蛋---UI开发的点点滴滴
+对应的项目demo为[UIWidgeTest](./UIWidgeTest)、[UILayoutTest](./UILayoutTest)、[UICustomViews](./UICustomViews)、[ListViewTest](./ListViewTest)、[RecyclerViewTest](./RecyclerViewTest)
+- TextView:`match_parent`表示让当前控件的大小和父布局的大小一样，也就是由父布局来决定当前控件的大小。`wrap_content`表示让当前控件的大小能够刚好包含住里面的内容，也就是由控件内容决定当前控件的大小
+- Button:默认英文转大写，`android:textAllCaps="false""`禁用这个特性
+- EditText:`android:hint`=placeholder,`android:maxLines`=最大行数
+- ImageView:`android:src`指定图片
+- ProgressBar:`visible`、`invisible`、`gone`
+- AlertDialog:AlertDialog.Builder
+- ProgressDialog:`setCancelable()`
+- 4种布局
+    - 线性布局LinearLayout
+    - 相对布局RelativeLayout
+    - 帧布局FrameLayout
+    - 百分比布局PercentFrameLayout、PercentRelativeLayout
+- 引入布局`<include layout="@layout/name" />`
+- ListView和RecyclerView
+
+
+
+
+
+
+
 ## 第4章 手机平板要兼顾---探究碎片
 
 
