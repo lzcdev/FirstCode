@@ -44,13 +44,7 @@
     - 百分比布局PercentFrameLayout、PercentRelativeLayout
 - 引入布局`<include layout="@layout/name" />`
 - ListView和RecyclerView
-
-
-
-
-
-
-
+- 
 ## 第4章 手机平板要兼顾---探究碎片
 
 
