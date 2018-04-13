@@ -46,5 +46,25 @@
 - ListView和RecyclerView
 - 
 ## 第4章 手机平板要兼顾---探究碎片
+对应的项目demo为[FragmentTest](./FragmentTest)和[FragmentBestPractice](FragmentBestPractice)
+- 碎片(fragment)和活动(activity)很像
+- 动态添加碎片
+  - 创建待添加的碎片实例
+  - 获取FragmentManager，在活动中可以直接通过getSupportFragmentManager()方法得到。
+  - 开启一个事务，通过调用beginTransaction()方法开启
+  - 向容器内添加或者替换碎片，一般使用replace()方法实现，需要传入容器的id和待添加的碎片实例
+  - 提交事务，调用commit()方法来完成
+- 模拟返回栈：`addToBackStack()`
+- 生命周期和活动很像
 
+## 第5章 全局大喇叭---详解广播机制
+对应的项目demo为[BroadcastTest](./BroadcastTest)和[BroadcastTest2](./BroadcastTest2)
+- 标准广播（异步）、有序广播（同步，可截断）
+- 动态注册监听网络变化
+- 静态注册实现开机启动
+## 第6章 数据存储全方案---详解持久化技术
+- 文件存储
+- SharedPreference存储
+- 数据库存储
+- 
 
