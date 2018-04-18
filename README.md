@@ -1,5 +1,5 @@
 # FirstCode
-郭神的《第一行代码》（第二版）个笔记
+郭神的《第一行代码》（第二版）笔记
 ## 第1章 开始启程---你的第一行Android代码
 对应的项目demo为[HelloWorld](./HelloWorld)
  - 分析了目录结构，如何使用`Android Studio`创建第一个项目。
@@ -63,9 +63,11 @@
 - 动态注册监听网络变化
 - 静态注册实现开机启动
 ## 第6章 数据存储全方案---详解持久化技术
-- 文件存储
-- SharedPreference存储
-- 数据库存储
+对应的项目demo为[FilePersistenceTest](./FilePersistenceTest)、[BroadcastBestPractice](./BroadcastBestPractice)
+- 文件存储、SharedPreference存储、数据库存储
+- 文件存储：openFileOutput()、OutputStreamWriter()、BufferedWriter()、openFileInput()、InputStreamReader()、BufferedReader()
+- SharedPreference存储:SharedPreferences.Editor、getSharedPreferences()、putString()、getString()
+- 数据库存储:
 
 ## 第7章  跨程序共享数据---探究内容提供器
 ## 第8章  丰富你的程序---运用手机多媒体
